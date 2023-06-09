@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStudent.MainPage">
+    <StackLayout>
+        <Label Text="Добавление студента" FontSize="Large" HorizontalOptions="Center" />
+        <Entry x:Name="firstNameEntry" Placeholder="Имя" />
+        <Entry x:Name="lastNameEntry" Placeholder="Фамилия" />
+        <Entry x:Name="ageEntry" Placeholder="Возраст" Keyboard="Numeric" />
+        <Button Text="Добавить" Clicked="OnAddButtonClicked" />
+    </StackLayout>
+</ContentPage>
